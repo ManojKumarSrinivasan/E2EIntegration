@@ -10,4 +10,13 @@
       <class name="testcases.TC_5"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="testcases.TC_3">
+        <methods>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- testcases.TC_3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
